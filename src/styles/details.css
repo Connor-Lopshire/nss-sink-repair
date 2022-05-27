@@ -1,0 +1,41 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    /* margin: 1rem 0 2rem 2rem; */
+    padding: 0.5rem;
+    background-color: rgb(72, 139, 227);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+
+}
+
+.request__delete {
+    
+    display: flex;
+   
+    justify-content: end;
+    /* margin: 1rem 0 2rem 2rem; */
+    padding: 0.10rem;
+    background-color: rgb(76, 28, 74);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+}
+
+.requestHTML {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15rem;
+    border: .25px dotted black;
+    padding: 1rem;
+    
+}
+
+.requestHTML:nth-child(odd) {
+    background-color: #c6c6c6;
+  }

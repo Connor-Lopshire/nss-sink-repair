@@ -1,0 +1,58 @@
+{
+  "plumbers": [
+    {
+      "id": "1",
+      "name": "Joey"
+    },
+    {
+      "id": "2",
+      "name": "Ralph"
+    },
+    {
+      "id": "3",
+      "name": "Froedrick"
+    }
+  ],
+  "completions": [
+    {
+      "request": "1",
+      "plumber": "1",
+      "dateCreated": 1653667100470,
+      "id": 1
+    },
+    {
+      "request": "1",
+      "plumber": "1",
+      "dateCreated": 1653667107789,
+      "id": 2
+    },
+    {
+      "request": "1",
+      "plumber": "3",
+      "dateCreated": 1653667161118,
+      "id": 3
+    },
+    {
+      "request": "2",
+      "plumber": "2",
+      "dateCreated": 1653667163119,
+      "id": 4
+    }
+  ],
+  "requests": [
+    {
+      "description": "description",
+      "address": "address",
+      "budget": "1000",
+      "neededBy": "2022-05-24",
+      "id": 1
+    },
+    {
+      "description": "stuff",
+      "address": "address 2",
+      "budget": "100",
+      "neededBy": "2022-05-19",
+      "id": 2
+    }
+  ]
+}
